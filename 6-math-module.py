@@ -6,7 +6,7 @@ pi = 3.1416
 
 # ===================================================================================================== #
 
-# round 
+# round
 
 # The round() function in Python is used to round a floating-point number to a specified number of decimal places. If no number of decimal places is specified, it rounds to the nearest integer.
 
@@ -43,7 +43,7 @@ print(abs(pi))
 
 # The pow() function in Python is used to raise a number to a specified power or to calculate the result of a number raised to a power with an optional modulus.
 
-print(pow(pi,2))
+print(pow(pi, 2))
 
 # ===================================================================================================== #
 
@@ -63,5 +63,5 @@ x = 1
 y = 2
 z = 3
 
-print(max(x,y,z))
-print(min(x,y,z))
+print(max(x, y, z))
+print(min(x, y, z))

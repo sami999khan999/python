@@ -8,12 +8,10 @@ age2 = 30
 
 # ===================================================================================================== #
 
-# multiple assignment 
+# multiple assignment
 
 # Multiple assignment in Python allows you to assign values to multiple variables simultaneously in a single line of code.
-a,b,c,d = 1,2,3,4
+a, b, c, d = 1, 2, 3, 4
 
 print(a)
-print(a, b,c,d)
-
-
+print(a, b, c, d)

@@ -1,13 +1,14 @@
 # string
 
 # A string in Python is a sequence of characters enclosed in quotes. Strings can be created using single quotes ('), double quotes ("), or triple quotes (''' or """) for multi-line strings.
+
 first_name = "Sami"
 last_name = "Khan"
 
 print(first_name)
-print("Hello"+ " " + first_name)
+print("Hello" + " " + first_name)
 
-# The type function will pront the data type of a variable to the console window. 
+# The type function will pront the data type of a variable to the console window.
 print(type(first_name))
 
 # ===================================================================================================== #
@@ -26,7 +27,7 @@ print(age + age2)
 print(type(age))
 
 # converts the integer age to a string and concatenates it with the message, then prints the complete sentence.
-print("Your age is" + " " +str(age))
+print("Your age is" + " " + str(age))
 
 # ===================================================================================================== #
 

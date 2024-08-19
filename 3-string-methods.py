@@ -3,6 +3,7 @@ name = "samikhan"
 # lenght
 
 # The len() function in Python is used to determine the length of various data structures, such as strings, lists, tuples, dictionaries, and more. It returns the number of items in the object.
+
 print(len(name))
 
 # ===================================================================================================== #
@@ -10,6 +11,7 @@ print(len(name))
 # find
 
 # The find() method in Python is used to search for a substring within a string. It returns the lowest index of the substring if it is found. If the substring is not found, it returns -1.
+
 print(name.find("s"))
 print(name.find("k"))
 
@@ -58,11 +60,12 @@ print(name.count("a"))
 # replace
 
 # The replace() method in Python is used to replace occurrences of a specified substring with another substring. It returns a new string with all (or specified number of) replacements.
+
 print(name.replace("a", "b"))
 
 # ===================================================================================================== #
 
-# slicing 
+# slicing
 
 # String slicing allows you to create a substring by extracting a portion of a string using a specific range of indices. Slicing can be done using the syntax string[start:stop:step]
 
@@ -80,10 +83,10 @@ print(another_name)
 
 # ===================================================================================================== #
 
-# reverse  
+# reverse
 
 # Reversing a string in Python can be done easily using string slicing, which allows you to create a new string by specifying the slice's start, stop, and step values. You can reverse a string by slicing it with a step of -1, which starts from the end of the string and moves backward.
 
-reversed_name =  name[::-1]
+reversed_name = name[::-1]
 
 print(reversed_name)

@@ -9,8 +9,8 @@
 age = int(input("How old are you?"))
 
 if age >= 18:
-  print("You are an adult.")
+    print("You are an adult.")
 elif age <= 0:
-  print("You haven't been bord yet.")
+    print("You haven't been bord yet.")
 else:
-  print("You are a child.")
+    print("You are a child.")

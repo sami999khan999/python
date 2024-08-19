@@ -11,11 +11,11 @@ temp = int(input("What is the temperature outside?"))
 # The AND operator returns True if both operands are True. Otherwise, it returns False.
 
 if temp >= 0 and temp <= 30:
-  print("It's warm outside.")
+    print("It's warm outside.")
 elif temp < 0 and temp >= -20:
-  print("It's cold outside.")
+    print("It's cold outside.")
 else:
-  print("Don't go outside")
+    print("Don't go outside")
 
 # ===================================================================================================== #
 
@@ -23,10 +23,10 @@ else:
 
 # The OR operator returns True if either of the operands is True. Otherwise, it returns False.
 
-if temp >= 0 or temp >= 200: 
-  print("It's warm outside.")
+if temp >= 0 or temp >= 200:
+    print("It's warm outside.")
 else:
-  print("It's cold outside.")
+    print("It's cold outside.")
 
 # ===================================================================================================== #
 
@@ -34,9 +34,9 @@ else:
 
 # The NOT operator returns True if the operand is False and False if the operand is True.
 
-if not(temp >= 0):
-  print("it's warm outside.")
-elif not(temp <= -20):
-  print("it's cold outside.")
+if not (temp >= 0):
+    print("it's warm outside.")
+elif not (temp <= -20):
+    print("it's cold outside.")
 else:
-  print("Don't go outside")
+    print("Don't go outside")

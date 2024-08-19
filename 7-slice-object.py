@@ -5,7 +5,7 @@
 website1 = "http://google.com"
 website2 = "http://wikipedia.com"
 
-slice = slice(7,-4)
+slice = slice(7, -4)
 
 website1_name = website1[slice]
 website2_name = website2[slice]
