@@ -1,7 +1,5 @@
 # list methods
 
-# Python provides a variety of built-in methods to manipulate lists. These methods help in adding, removing, searching, and modifying elements within a list.
-
 numbers = [1, 2, 3, 4, 5]
 
 # ===================================================================================================== #
