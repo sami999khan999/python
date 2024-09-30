@@ -10,7 +10,7 @@ with open("text.txt") as file:
 
 # readline
 
-# read the file line by line, you can use the readline() method.
+# to read the file line by line, you can use the readline() method.
 
 with open("text.txt") as file:
     content = file.readline()
