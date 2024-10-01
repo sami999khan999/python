@@ -31,6 +31,7 @@ class Car:
 
         # 'self.make', 'self.model', etc. refer to the instance variables.
         # These are specific to the object created from the class and store data.
+
         self.make = make  # Assigns the 'make' of the car to the object
         self.model = model  # Assigns the 'model' of the car to the object
         self.year = year  # Assigns the 'year' of the car to the object
