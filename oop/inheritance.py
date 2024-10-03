@@ -1,59 +1,64 @@
+# Inheritance:
+# Inheritance is a feature of object-oriented programming that allows one class (subclass/child class)
+# to inherit the properties and methods from another class (parent class).
+# This promotes code reusability, as child classes can use or modify the methods and attributes of the parent class.
+
+
 # Define a base class 'Animal'
-# This class will serve as the "parent" class for all other animal types.
+# This class serves as the "parent" class for all other animal types.
 class Animal:
-
-    # The constructor (__init__) method initializes the object with a name and age.
+    # Constructor method (__init__) initializes the object with 'name' and 'age'.
+    # These attributes are unique to each instance of the class.
     def __init__(self, name, age):
-        # 'self.name' and 'self.age' are instance variables unique to each object created.
-        # These variables store the name and age of the animal.
-        self.name = name
-        self.age = age
+        self.name = name  # Assign 'name' to the instance
+        self.age = age  # Assign 'age' to the instance
 
-    # Define a method called 'eat'.
-    # This method can be used by any object of the 'Animal' class or any class that inherits from it.
+    # Define a method 'eat' to describe the action of eating
     def eat(self):
-        # Print the animal's name and age while they are eating.
-        print(f"This {self.name} is {self.age} years old, and he is eating")
+        print(
+            f"This {self.name} is {self.age} years old, and he is eating"
+        )  # Print the animal's name and age when eating
 
-    # Define another method called 'sleep'.
-    # Just like 'eat', this method can be used by any object of the 'Animal' class or its subclasses.
+    # Define another method 'sleep' to describe the action of sleeping
     def sleep(self):
-        # Print the animal's name and age while they are sleeping.
         print(
             f"This {self.name} is {self.age} years old, and he is sleeping"
-        )  # Fixed typo: 'sleepint' to 'sleeping'
+        )  # Print the animal's name and age when sleeping
 
 
-# Define a subclass 'Dog' that inherits from the 'Animal' class.
-# Inheritance allows 'Dog' to use methods and attributes from 'Animal' without redefining them.
+# Define a 'Dog' class that inherits from 'Animal'
+# This means 'Dog' has all the methods and attributes of 'Animal'
 class Dog(Animal):
-    # The 'Dog' class doesn't define any new methods or attributes,
-    # so it inherits everything from the 'Animal' class by default.
-    # In this case, 'Dog' inherits the 'eat' and 'sleep' methods.
-    pass  # The 'pass' statement is used when no additional code is required.
+    # No additional methods or attributes are defined, so it uses everything from 'Animal'
+    pass  # 'pass' means no additional functionality is added
 
 
-# Define another subclass 'Cat' that also inherits from the 'Animal' class.
+# Define a 'Cat' class that also inherits from 'Animal'
+# Like 'Dog', 'Cat' will inherit the properties and methods from the 'Animal' class
 class Cat(Animal):
-    # The 'Cat' class also inherits all the attributes and methods from the 'Animal' class.
-    # This means 'Cat' can also use the 'eat' and 'sleep' methods.
-    pass
+    pass  # 'pass' means no additional functionality is added
 
 
-# Now let's create objects (instances) of the 'Dog' and 'Cat' classes.
+# Creating instances (objects) of the 'Dog' and 'Cat' classes
 
-# Create an instance of 'Dog'. The 'Dog' class doesn't need its own constructor because it inherits
-# the constructor from 'Animal'. Here, the dog's name is "Dog" and its age is 9.
+# Create a 'Dog' object with a name "Dog" and age 9
 dog = Dog("Dog", 9)
 
-# Call the 'sleep' method for 'dog'. Since 'Dog' inherits from 'Animal', it uses the 'sleep' method from 'Animal'.
+# Call the 'sleep' method inherited from the 'Animal' class
 # Output: "This Dog is 9 years old, and he is sleeping"
 dog.sleep()
 
-# Create an instance of 'Cat'. Like 'Dog', 'Cat' uses the constructor inherited from 'Animal'.
-# The cat's name is "Cat" and its age is 4.
+# Create a 'Cat' object with a name "Cat" and age 4
 cat = Cat("Cat", 4)
 
-# Call the 'eat' method for 'cat'. Since 'Cat' inherits from 'Animal', it uses the 'eat' method from 'Animal'.
+# Call the 'eat' method inherited from the 'Animal' class
 # Output: "This Cat is 4 years old, and he is eating"
 cat.eat()
+
+
+# Key Points:
+# 1. Inheritance allows a child class to acquire methods and attributes from a parent class.
+# 2. The 'Dog' and 'Cat' classes inherit from 'Animal' without redefining its methods.
+# 3. The 'pass' statement indicates that no additional functionality is needed in the child classes.
+# 4. The 'Animal' class defines general methods (e.g., 'eat' and 'sleep') that can be shared among subclasses.
+# 5. Inheritance promotes code reusability and allows for hierarchical relationships between classes.
