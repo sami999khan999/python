@@ -3,6 +3,7 @@
 # ---------------------------
 # Python provides several built-in exceptions that can be caught and handled.
 # Common exceptions include:
+
 # - ValueError: Raised when a function receives an argument of the correct type but an inappropriate value.
 # - TypeError: Raised when an operation or function is applied to an object of inappropriate type.
 # - IndexError: Raised when trying to access an index that is out of range for a list or tuple.

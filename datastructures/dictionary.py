@@ -26,17 +26,17 @@ print(student["name"])  # Output: Alice
 # Dictionary Methods
 # ---------------------------
 
-# 1. **keys()**: Returns a view object that displays a list of all the keys in the dictionary.
+# 1. keys(): Returns a view object that displays a list of all the keys in the dictionary.
 # Example: Getting keys from a dictionary
 keys = student.keys()
 print(keys)  # Output: dict_keys(['name', 'age', 'major'])
 
-# 2. **values()**: Returns a view object that displays a list of all the values in the dictionary.
+# 2. values(): Returns a view object that displays a list of all the values in the dictionary.
 # Example: Getting values from a dictionary
 values = student.values()
 print(values)  # Output: dict_values(['Alice', 21, 'Computer Science'])
 
-# 3. **items()**: Returns a view object that displays a list of a dictionary's key-value tuple pairs.
+# 3. items(): Returns a view object that displays a list of a dictionary's key-value tuple pairs.
 # Example: Getting key-value pairs from a dictionary
 items = student.items()
 print(
